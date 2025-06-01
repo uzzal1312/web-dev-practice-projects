@@ -79,7 +79,7 @@
 
 #card-box {
     width: 1200px;
-    margin: 10em auto;
+    margin: 8em auto;
 }
 
 #card-box>.subtitle {
@@ -158,4 +158,48 @@
 
 .card1>.description {
     color: rgb(16, 16, 16);
+}
+
+/* Footer */
+
+.about-us {
+    width: 1965px;
+    height: 500px;
+    background-image: url(../assets/social-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.title {
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+}
+
+.container>.subtitle {
+    color: rgb(16, 16, 16);
+}
+
+.container>.description {
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fa-x-twitter {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.fa-instagram {
+    margin-left: 5px;
+    margin-right: 10px;
 }
